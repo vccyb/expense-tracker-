@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
     "pinia": "^2.1.7",
@@ -15,6 +16,8 @@
   "devDependencies": {
     "@types/node": "^20.14.2",
     "@vitejs/plugin-vue": "^5.0.4",
+    "@vitest/ui": "^1.6.0",
+    "@vue/test-utils": "^2.4.6",
     "autoprefixer": "^10.4.19",
     "daisyui": "^4.12.2",
     "postcss": "^8.4.38",
